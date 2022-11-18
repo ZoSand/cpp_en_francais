@@ -86,6 +86,7 @@
 #	define enregistrer register
 #	define moulage_de_réinterprétation reinterpret_cast
 #	define retourne return
+#	define renvoie retourne
 #	define court short
 #	define signé signed
 #	define taille_de sizeof
