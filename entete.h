@@ -134,13 +134,12 @@
 #	define est_égal_ou_plus_petit_que <=
 #	define pointeur ->
 #	define virgule ,
+#	define point_virgule ;
 #	define point .
 #	define point_point ::
 #	define point_point_point ...
 
-#	define fin_de_ligne ;
-
-#	define toujours fin_de_ligne fin_de_ligne
+#	define toujours point_virgule point_virgule
 
 #	define binaire(n) 0b##n
 #	define octal(n) 0o##n
