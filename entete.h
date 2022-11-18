@@ -143,7 +143,10 @@
 #	define toujours fin_de_ligne fin_de_ligne
 
 #	define binaire(n) 0b##n
+#	define octal(n) 0o##n
+#	define décimal(n) 0d##n
 #	define hexadécimal(n) 0x##n
+
 
 
 #	define tabarnak main
